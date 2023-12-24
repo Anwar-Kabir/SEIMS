@@ -17,6 +17,8 @@ class _AndroidHomeState extends State<AndroidHome> {
         body: Column(
           children: [
             const Text('I Am android,, wow'),
+            Text(AppLocalizations.of(context)!.helloWorld),
+
             Text(
               AppLocalizations.of(context)?.language ?? 'Default Language',
               style: const TextStyle(fontSize: 36, fontWeight: FontWeight.bold),

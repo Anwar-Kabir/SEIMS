@@ -13,9 +13,7 @@ class _LinuxHomeState extends State<LinuxHome> {
     return const SafeArea(
       child: Scaffold(
         body: Column(
-          children: [
-            Text('I Am linux, wow its working')
-          ],
+          children: [Text('I Am linux, wow its working')],
         ),
       ),
     );

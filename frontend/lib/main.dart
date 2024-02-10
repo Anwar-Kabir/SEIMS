@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       routerConfig: router,
-      title: 'Flutter Demo',
+      title: 'Flutter Demo dev',
       //supportedLocales: L10n.all,
 
       localizationsDelegates: AppLocalizations.localizationsDelegates,

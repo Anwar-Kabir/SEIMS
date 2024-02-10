@@ -15,5 +15,6 @@
            "type": "String"
          }
       }
-    }
+    },
+    "dev_name": "developed by Hitaishi"
 }
